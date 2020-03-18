@@ -1,0 +1,11 @@
+{
+    "scripts": {
+        "rush": "node common/scripts/install-run-rush.js",
+        "rush:repair": "git clean -xfd && rm common/config/rush/pnpm-lock.yaml && pnpm run rush:update -- --purge --recheck",
+        "postinstall": "pnpm run rush -- install",
+        "build": "pnpm run rush -- build",
+        "test": "pnpm run rush -- test",
+        "prepare": "pnpm run build && npm run test",
+        "setversion": "pnpm run rush -- version --ensure-version-policy --version-policy public --override-version"
+    }
+}

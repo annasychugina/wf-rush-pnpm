@@ -1,0 +1,44 @@
+/**
+ * This is the main configuration file for Rush.
+ * For full documentation, please see https://rushjs.io
+ */
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "pnpmVersion": "9.8.3",
+  "rushVersion": "5.21.0",
+  "nodeSupportedVersionRange": ">=10.16.0",
+  "pnpmOptions": {
+    "strictPeerDependencies": true
+  },
+  "ensureConsistentVersions": true,
+  "projectFolderMaxDepth": 3,
+  "repository": {
+    "url": "https://github.com/Microsoft/tiny"
+  },
+  "projects": [
+    {
+      "packageName": "@tiny/types",
+      "projectFolder": "packages/types",
+      "reviewCategory": "production",
+      "versionPolicyName": "public"
+    },
+    {
+      "packageName": "@app/01-host",
+      "projectFolder": "packages/01-host",
+      "reviewCategory": "production",
+      "versionPolicyName": "public"
+    },
+    {
+      "packageName": "@app/02-material-ui",
+      "projectFolder": "packages/02-material-ui",
+      "reviewCategory": "production",
+      "versionPolicyName": "public"
+    },
+    {
+      "packageName": "@app/03-styled-components",
+      "projectFolder": "packages/03-styled-components",
+      "reviewCategory": "production",
+      "versionPolicyName": "public"
+    },
+  ]
+}
