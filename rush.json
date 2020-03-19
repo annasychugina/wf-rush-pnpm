@@ -19,26 +19,32 @@
     {
       "packageName": "@tiny/types",
       "projectFolder": "packages/types",
-      "reviewCategory": "production",
-      "versionPolicyName": "public"
+      "versionPolicyName": "public",
+      "reviewCategory": "libraries",
+      "shouldPublish": false
     },
     {
       "packageName": "@app/01-host",
       "projectFolder": "packages/01-host",
-      "reviewCategory": "production",
-      "versionPolicyName": "public"
+      "versionPolicyName": "public",
+      "reviewCategory": "libraries",
+      "shouldPublish": false
     },
     {
       "packageName": "@app/02-material-ui",
       "projectFolder": "packages/02-material-ui",
       "reviewCategory": "production",
-      "versionPolicyName": "public"
+      "versionPolicyName": "public",
+      "reviewCategory": "libraries",
+      "shouldPublish": false
     },
     {
       "packageName": "@app/03-styled-components",
       "projectFolder": "packages/03-styled-components",
       "reviewCategory": "production",
-      "versionPolicyName": "public"
+      "versionPolicyName": "public",
+      "reviewCategory": "libraries",
+      "shouldPublish": false
     },
   ]
 }

@@ -7,9 +7,11 @@
         "build": "pnpm run rush -- build",
         "test": "pnpm run rush -- test",
         "prepare": "pnpm run build && npm run test",
+        "serve": "wsrun --parallel serve",
         "setversion": "pnpm run rush -- version --ensure-version-policy --version-policy public --override-version"
     },
-    "dependencies": {
-        "concurrently": "^5.1.0"
-    }
+    "devDependencies": {
+        "concurrently": "^5.1.0",
+        "wsrun": "^5.2.0"
+      }
 }
