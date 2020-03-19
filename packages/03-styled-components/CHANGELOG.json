@@ -1,0 +1,22 @@
+{
+  "name": "@app/03-styled-components",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "@app/03-styled-components_v1.0.0",
+      "date": "Thu, 19 Mar 2020 13:07:20 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Initial release"
+          }
+        ],
+        "none": [
+          {
+            "comment": "dkd"
+          }
+        ]
+      }
+    }
+  ]
+}
